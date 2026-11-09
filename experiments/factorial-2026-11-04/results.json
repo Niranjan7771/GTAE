@@ -1,0 +1,2172 @@
+{
+  "status": "complete development factorial; no generalization or improved-GTAE claim",
+  "seconds": 111.5110957089928,
+  "metrics": [
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.661442255459031,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.5801545291417941,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 8
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 55
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.08,
+      "test_attack_TPR": 0.2619047619047619
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.6040340913134858,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 41
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.19523809523809524
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.5810221156779231,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 2
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 54
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.02,
+      "test_attack_TPR": 0.2571428571428571
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.6832810533151944,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 12
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.05714285714285714
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6571767139414421,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 8
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 55
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.08,
+      "test_attack_TPR": 0.2619047619047619
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.7735718611279836,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.7099173258673007,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 3
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.03,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.7532680117464167,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.7318517250689882,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.7776008414845462,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 2,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.7776008414845462,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.7240197967122194,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 3
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 2
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.03,
+      "test_attack_TPR": 0.009523809523809525
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.5799116409898438,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 15
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.15,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.6084090204834692,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 9
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 2
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.09,
+      "test_attack_TPR": 0.5333333333333333
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.5741854122279507,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 11
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 6
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.11,
+      "test_attack_TPR": 0.5523809523809524
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.632952227292198,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6005758535928492,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 4
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.04,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.6366634336174457,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.632673440641096,
+      "validation_n": 139,
+      "validation_alerts": 3,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.6428307697244257,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.6359511738509984,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 2
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 2
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.02,
+      "test_attack_TPR": 0.009523809523809525
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.7174937792014349,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261104,
+      "p": 8,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6981659874599742,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.047619047619047616
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.6622271599529154,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 8
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0380952380952381
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.582619084418358,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 8
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 55
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.08,
+      "test_attack_TPR": 0.2619047619047619
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.6482064716531993,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 3
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.014285714285714285
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.5606239630966104,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 10
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 55
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.1,
+      "test_attack_TPR": 0.2619047619047619
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.6748984409860445,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 5
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.023809523809523808
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6709663148850245,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 9
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.04285714285714286
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.75773881667136,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.7128508375301442,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 45
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.45,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.7672254233655732,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.719016273601602,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 45
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.45,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.7791084511869136,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 2,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.7791084511869136,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.6751601836575675,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 4
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.04,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.6386631490615539,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 9
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.09,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.6866463483416031,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 4
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 7
+        }
+      },
+      "test_benign_FPR": 0.04,
+      "test_attack_TPR": 0.5095238095238095
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.590121375712224,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 13
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.13,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.6244709088444148,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.5889383945384659,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 9
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.09,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.681722832831067,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 45
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.21428571428571427
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.6595253821697524,
+      "validation_n": 139,
+      "validation_alerts": 5,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 9
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.09,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.7091360752128771,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 7
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.07,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.5887438237030878,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 10
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.1,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.7145710090223234,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261105,
+      "p": 8,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6837214660392842,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 2
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.02,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.6220963970193188,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 2
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 14
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.02,
+      "test_attack_TPR": 0.06666666666666667
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.5760306352864275,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 8
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 51
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.08,
+      "test_attack_TPR": 0.24285714285714285
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.623102346692488,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 3
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 9
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.03,
+      "test_attack_TPR": 0.04285714285714286
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.6075876246008008,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 8
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 44
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.08,
+      "test_attack_TPR": 0.20952380952380953
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.6837357947278533,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6780489284011642,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.7386939769602138,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.7017196561374317,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 45
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.45,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.7353016996990898,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.6725668084011341,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 50
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.5,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.7804209497660414,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 2,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.7804209497660414,
+      "validation_n": 139,
+      "validation_alerts": 0,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.6001001495716505,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 5
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.05,
+      "test_attack_TPR": 0.5285714285714286
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "raw",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.5552122975568037,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 10
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 5
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.1,
+      "test_attack_TPR": 0.5476190476190477
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.7254320476228319,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 3
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 46
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.03,
+      "test_attack_TPR": 0.21904761904761905
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "raw",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.5839265244419825,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 24
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.24,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.6214676386963806,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "raw",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.5989830525082771,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 2
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.02,
+      "test_attack_TPR": 0.5238095238095238
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.01,
+      "threshold": 0.670457511900164,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "mask",
+      "context": "self",
+      "nominal_budget": 0.05,
+      "threshold": 0.6663047704922807,
+      "validation_n": 139,
+      "validation_alerts": 5,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 9
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.09,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.01,
+      "threshold": 0.6660935342990756,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 1
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.01,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "mask",
+      "context": "past",
+      "nominal_budget": 0.05,
+      "threshold": 0.6559937500236716,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 20
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 73
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.2,
+      "test_attack_TPR": 0.3952380952380952
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.01,
+      "threshold": 0.7262519199111822,
+      "validation_n": 139,
+      "validation_alerts": 1,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 0
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 0
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.0
+    },
+    {
+      "seed": 20261106,
+      "p": 8,
+      "field": "mask",
+      "context": "tabular",
+      "nominal_budget": 0.05,
+      "threshold": 0.6837484539280425,
+      "validation_n": 139,
+      "validation_alerts": 6,
+      "per_class": {
+        "BENIGN": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DDoS": {
+          "n": 100,
+          "alerts": 0
+        },
+        "DoS Slowloris": {
+          "n": 100,
+          "alerts": 100
+        },
+        "FTP-Patator": {
+          "n": 10,
+          "alerts": 10
+        }
+      },
+      "test_benign_FPR": 0.0,
+      "test_attack_TPR": 0.5238095238095238
+    }
+  ],
+  "test_opened_after_manifest_and_invariant_checks": true,
+  "manifest_sha256": "262190641485dfc8aa8a8d8f1dcc4d75bc1f2d8487e68607f21109f701979a44",
+  "torch": "2.14.1",
+  "sklearn": "1.8.0",
+  "numpy": "2.5.4",
+  "models": 24
+}

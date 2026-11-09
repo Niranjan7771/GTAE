@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "decisions_checked": 2732,
+  "mask_arms_checked": 5464,
+  "test_targets_checked": 310,
+  "method": "full-capture history versus truncated visible stream, all targets/stages/prefix/context arms",
+  "degree": {
+    "p2_train1": {
+      "selected_context_mean": 102.703125,
+      "incident_nonzero": 94,
+      "targets": 128
+    },
+    "p2_train2": {
+      "selected_context_mean": 126.9622641509434,
+      "incident_nonzero": 65,
+      "targets": 106
+    },
+    "p2_validation": {
+      "selected_context_mean": 127.0,
+      "incident_nonzero": 89,
+      "targets": 139
+    },
+    "p2_test": {
+      "selected_context_mean": 125.12258064516129,
+      "incident_nonzero": 295,
+      "targets": 310
+    },
+    "p8_train1": {
+      "selected_context_mean": 103.1640625,
+      "incident_nonzero": 91,
+      "targets": 128
+    },
+    "p8_train2": {
+      "selected_context_mean": 126.95283018867924,
+      "incident_nonzero": 65,
+      "targets": 106
+    },
+    "p8_validation": {
+      "selected_context_mean": 126.94244604316546,
+      "incident_nonzero": 90,
+      "targets": 139
+    },
+    "p8_test": {
+      "selected_context_mean": 125.93548387096774,
+      "incident_nonzero": 296,
+      "targets": 310
+    }
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pt
+*.pkl
+models/
+calibration/
+mpl-cache/
+.DS_Store
+graph-receipts.json
+scores.csv
+validation-scores.csv
